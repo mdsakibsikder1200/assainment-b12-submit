@@ -163,18 +163,49 @@
 .img_second p{
   padding-left: 24px;
   font-size: 25px;
-  padding-bottom: 24px;
+  padding-bottom:8px;
   color: rgb(80, 83, 85);
   padding-right: 24px;
 }
-.img_second img{
+  /* .cont   {
   padding-left: 24px;
   padding-bottom: 24px;
   padding-right: 24px;
   width: 50px;
   height: 50px;
+  display: flex;
+  justify-content: space-between;
+}  */
+.reviewer_box {
+display: flex;
+align-items: center;
+margin-top: 12px;
+gap: 10px;
+margin-left: 24px;
+margin-bottom: 24px;
+}
+.reviewer_img {
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;  
+ object-fit: cover;
+ margin-right: 12px;
+}
+.reviewer_name {
+  font-weight: bold;
+  color: #333;
+  font-size: 25px;
+}
+.reviewer_date {
+  color: #888;
+  font-size: 20px;
 }
 
+ 
+
+
+
+   
 
 
  
